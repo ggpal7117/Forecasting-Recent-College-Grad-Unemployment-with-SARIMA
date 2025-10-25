@@ -11,7 +11,8 @@ The SARIMA model is a continuation of the ARIMA Model. The SARIMA uses two sets 
 
 <img width="1400" height="650" alt="Image" src="https://github.com/user-attachments/assets/6ab0ecb3-0c09-43ae-a138-10ff823d6cbc" />
 
-The specific model we used was a SARIMA(1,0,1)(0,1,0,12): \[
+The specific model we used was a SARIMA(1,0,1)(0,1,0,12): 
+$$
 \text{model} = \text{SARIMAX}\big(\text{history}, \, \text{order} = (1, 0, 1), \, \text{seasonal\_order} = (0, 1, 0, 12)\big).\text{fit}(\text{disp} = \text{False})
-\]
+$$
 
