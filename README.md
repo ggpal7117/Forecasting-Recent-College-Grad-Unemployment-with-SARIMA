@@ -13,6 +13,8 @@ The SARIMA model is a continuation of the ARIMA Model. The SARIMA uses two sets 
 
 The specific model we used was a SARIMA(1,0,1)(0,1,0,12): 
 $$
-\text{model} = \text{SARIMAX}\big(\text{history}, \, \text{order} = (1, 0, 1), \, \text{seasonal\_order} = (0, 1, 0, 12)\big).\text{fit}(\text{disp} = \text{False})
+(1 - \phi_1 B)(1 - B^{12})\, y_t
+= (1 + \theta_1 B)\,\varepsilon_t + \beta X_t
 $$
+
 
