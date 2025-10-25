@@ -11,10 +11,6 @@ The SARIMA model is a continuation of the ARIMA Model. The SARIMA uses two sets 
 
 <img width="1400" height="650" alt="Image" src="https://github.com/user-attachments/assets/6ab0ecb3-0c09-43ae-a138-10ff823d6cbc" />
 
-The specific model we used was a SARIMA(1,0,1)(0,1,0,12): 
-$$
-(1 - \phi_1 B)(1 - B^{12})\, y_t
-= (1 + \theta_1 B)\,\varepsilon_t + \beta X_t
-$$
-
+The specific model we used was a SARIMA(1,0,1)(0,1,0,12). It uses a non-seasonal autoregressive and moving average component, a seasonal differencing term, as well as a 12-month seasonal component. To test the model's performance, we used a rolling forecast average. Instead of just predicting on the whole test set, we predicted the very next data point, added the true test value to the model, and expanded the model to test until the end of the test set. The mean squared error was 0.98, which is very low, indicating the model performs very well. 
+After this, to end the project, I forecasted rates until the end of the year.
 
