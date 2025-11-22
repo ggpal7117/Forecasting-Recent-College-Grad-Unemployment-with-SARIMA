@@ -1,4 +1,5 @@
 # Forecasting-Recent-College-Grad-Unemployment-with-SARIMA
+Dashboard: https://public.tableau.com/app/profile/gourav.pal/viz/UnemploymentAnalysis_17638317576870/Dashboard1
 
 In this notebook, I used a Seasonal Auto-Regressive Integrated Moving Average (SARIMA) model to forecast recent college graduate unemployment.
 
@@ -14,3 +15,6 @@ The SARIMA model is a continuation of the ARIMA Model. The SARIMA uses two sets 
 The specific model we used was a SARIMA(1,0,1)(0,1,0,12). It uses a non-seasonal autoregressive and moving average component, a seasonal differencing term, as well as a 12-month seasonal component. To test the model's performance, we used a rolling forecast average. Instead of just predicting on the whole test set, we predicted the very next data point, added the true test value to the model, and expanded the model to test until the end of the test set. The mean squared error was 0.98, which is very low, indicating the model performs very well. 
 After this, to end the project, I forecasted rates until the end of the year.
 
+
+## Tableau Analysis
+In the data scraping notebook, I continued to pull data from FRED to compile for interactive visualizations. I also used Tableau's in-built forecast feature to forecast future rates and also compare them to my SARIMA model. 
