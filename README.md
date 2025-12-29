@@ -5,6 +5,7 @@ A time series forecasting project analyzing unemployment trends among recent col
 [![Tableau Dashboard](https://img.shields.io/badge/Tableau-Dashboard-E97627?style=for-the-badge&logo=tableau)](https://public.tableau.com/app/profile/gourav.pal/viz/UnemploymentAnalysis_17638317576870/Dashboard1)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
 [![FRED API](https://img.shields.io/badge/Data-FRED_API-darkgreen?style=for-the-badge)](https://fred.stlouisfed.org/)
+[![Report](https://img.shields.io/badge/Report-Gamma-6C5CE7?style=for-the-badge)](https://gamma.app/docs/Forecasting-Recent-College-Graduate-Unemployment-h753e0kwulogp2d)
 
 ## 📊 Project Overview
 
